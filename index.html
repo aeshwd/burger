@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<body>
+
+    <!--Navbar-->
+    <div class="navbar" id="home">
+        <div class="nav-left">
+            <div class="img">
+                <i class="fa-solid fa-burger"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#recipe"><li>Recipe</li></a>
+                <a href="#menu"><li>Popular</li></a>
+                <a href="#footer"><li>Contact</li></a>
+                
+            </ul>
+
+            
+        </div>
+    </div>
+
+    <!--Hero-->
+
+    <div class="hero">
+        <div class="hero-left">
+            <h1>Love Every Burger</h1>
+            <p>We serve the best burgers on the planet, paving the way for cooking and preparing hot, delicious burgers.</p>
+            <a href="#"><button>Bite Now</button></a>
+            <div class="local">
+                <img src="images/tomato.png" class="tomato">
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="images">
+                <div class="main">
+
+               <img src="images/Fresh.png" class="main-img">
+            </div>
+            <div class="normal">
+                 <img src="images/fries.png" class="normal">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Marquee-->
+    <div class="marquee">
+
+        <marquee>
+            <img src="images/kfc.png">
+            <img src="images/mc.png" style="margin-top: 50px;">
+            <img src="images/burger1.webp">
+            <img src="images/burger2.webp">
+        </marquee>
+        <hr>
+    </div>
+    
+    <!--Timeline-->
+    <div class="rec" id="recipe">
+       
+    <header>
+        <h1 class="re">Burger Recipe </h1>
+      </header>
+
+      <div class="ingre">
+        <img src="images/ingredents.png" class="ing">
+    </div>
+    
+      <section class="timeline">
+        <div class="step">
+          <h2>Step 1: Prepare the Ingredients</h2>
+          <img src="images/top-view-raw-italian-pasta-with-seasonings-mushrooms-dark-background.png" alt="Ingredients">
+          <p>Gather all your ingredients: ground beef, buns, lettuce, tomatoes, cheese, onions, and condiments.</p>
+        </div>
+    
+        <div class="step">
+          <h2>Step 2: Shape the Patties</h2>
+          <img src="images/patties.png" alt="Shaping Patties">
+          <p>Shape the ground beef into equal-sized patties, season them with salt and pepper.</p>
+        </div>
+    
+        <div class="step">
+          <h2>Step 3: Cook the Patties</h2>
+          <img src="images/cooking-patty.png" alt="Cooking Patties">
+          <p>Heat a grill or pan, and cook the patties on medium-high heat until they're done.</p>
+        </div>
+    
+        <div class="step">
+          <h2>Step 4: Toast the Buns</h2>
+          <img src="images/buns.png" alt="Toasting Buns">
+          <p>Lightly toast the buns on the grill for a crispy texture.</p>
+        </div>
+    
+        <div class="step">
+          <h2>Step 5: Assemble the Burger</h2>
+          <img src="images/delicious-burgers-studio.png" alt="Assembling the Burger">
+          <p>Layer the ingredients: patty, cheese, lettuce, tomato, onions, and condiments inside the toasted buns.</p>
+        </div>
+    
+        <div class="step">
+          <h2>Step 6: Serve and Enjoy</h2>
+          <img src="images/serve.png" alt="Serving Burger">
+          <p>Your delicious homemade burger is ready to serve! Enjoy with fries or a cold drink.</p>
+        </div>
+      </section>
+    </div>
+
+    <!--Menu-->
+     <!--Products-->
+
+     <div class="produ" id="menu">
+      <h1>Our Menu</h1>
+     </div>
+     <div class="filter-buttons">
+      <button class="filter-but" onclick="filterProducts('all')">All</button>
+      <button class="filter-but" onclick="filterProducts('Burgers')">Burgers</button>
+      <button class="filter-but" onclick="filterProducts('Nuggets')">Nuggets</button>
+      <button class="filter-but" onclick="filterProducts('McWraps')">McWrap</button>
+      <button class="filter-but" onclick="filterProducts('Cone')">Cone</button>
+      <button class="filter-but" onclick="filterProducts('Sundae')">Sundae</button>
+      <button class="filter-but" onclick="filterProducts('Cold')">Cold Drinks</button>
+        </div>
+    <div class="menu">
+      <div class="product-list" id="product-list"></div>
+    </div>
+
+    <!--Footer-->
+     <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-top">
+      <!-- Logo -->
+      <div class="footer-logo">
+        <img src="images/burger1.webp" alt="Site Logo">
+      </div>
+
+      <!-- Links -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#recipe">Recipes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="footer-contact" id="footer">
+        <h3>Contact Us</h3>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sub-Footer Section -->
+    <div class="sub-footer">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://x.com/Aesh1575885/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/aeshgoswami_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://aeshwd.github.io/aeshgoswami" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+<script src="scrollreveal.min.js"></script>
+<script src="script.js"></script>
+</html>

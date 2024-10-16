@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.quantity-control {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+}
+
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.actions button{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.continue-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.continue-btn:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #34495e;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.price{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: green;
+}
+
+.des{
+    line-height: 1.5;
+}
+
+

@@ -1,0 +1,141 @@
+.cart-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#cart-total {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.continue-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.continue-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.add-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.quantity-control{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quantity-control button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+}
+
+.quantity-control p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.remove-btn{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.subtotal{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.proceed-btn{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #34495e;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
