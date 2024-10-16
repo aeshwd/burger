@@ -73,13 +73,13 @@ const products = [
 
   { id: 21, name: "Ranch Chicken Snack Wrap", price: "5.99" , category: "McWraps", imageUrl: 'images/ranch.png', des: "Made with 100% Canadian raised seasoned chicken topped with shredded lettuce, shredded cheese and ranch sauce wrapped in a soft white flour tortilla." },
 
-  { id: 17, name: "Lemon Fruit Splash", price: "3.17" , category: "Cold", imageUrl: 'images/cold3.png', des: "A refreshing lemonade beverage made with real lemon juice concentrate and real lemon pulp. Served over ice." },
+  { id: 17, name: "Lemon Fruit Splash", price: "3.17" , category: "Cold", imageUrl: 'images/Cold3.png', des: "A refreshing lemonade beverage made with real lemon juice concentrate and real lemon pulp. Served over ice." },
 
-  { id: 18, name: "Coca-Cola Zero", category: "Cold", price: "2.49" , imageUrl: 'images/cold1.png', des: "Real Coca-Cola taste with zero calories and zero sugar. Perfection on ice." },
+  { id: 18, name: "Coca-Cola Zero", category: "Cold", price: "2.49" , imageUrl: 'images/Cold1.png', des: "Real Coca-Cola taste with zero calories and zero sugar. Perfection on ice." },
 
-  { id: 19, name: "Coca-Cola", category: "Cold", price: "3.49" , imageUrl: 'images/cold2.png', des: "Enjoy your favourite McDonald's meal with a Coke. The original, refreshing ice-cold cola that goes well with your meal and completes the experience. Learn more!" },
+  { id: 19, name: "Coca-Cola", category: "Cold", price: "3.49" , imageUrl: 'images/Cold2.png', des: "Enjoy your favourite McDonald's meal with a Coke. The original, refreshing ice-cold cola that goes well with your meal and completes the experience. Learn more!" },
 
-  { id: 20, name: "Nestea Iced Tea", category: "Cold", price: "3.19" , imageUrl: 'images/cold4.png', des: "A refreshing blend of real tea and natural lemon flavour, served ice cold. " },
+  { id: 20, name: "Nestea Iced Tea", category: "Cold", price: "3.19" , imageUrl: 'images/Cold4.png', des: "A refreshing blend of real tea and natural lemon flavour, served ice cold. " },
 
   
 
